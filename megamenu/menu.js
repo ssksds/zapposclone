@@ -436,14 +436,7 @@ function megamenu(){
                 </li>
             </ul>
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link2" href="favorite.html"> Favorites </a></li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link2  dropdown-toggle" href="#" data-bs-toggle="dropdown"> Your Account </a>
-                    <ul class="dropdown-menu dropdown-menu-end">
-                      <li><a class="dropdown-item" href="#"> Hello User</a></li>
-                      <li><a class="dropdown-item" href="#"> Proceed Your buyings </a></li>
-                    </ul>
-                </li>
+                <li class="nav-item"><a class="nav-link" href="register.html"> Sign In / Register </a></li>
             </ul>
         </div> <!-- navbar-collapse.// -->
     </div> <!-- container-fluid.// -->

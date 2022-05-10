@@ -9,7 +9,7 @@ body{
     padding: 0 15px;
     gap:5px;
     font-family: 'Open Sans', sans-serif;
-    margin-top: 50px;
+    margin-top: -50px;
 }
 #customer-details{
     width: 60%;
@@ -167,6 +167,7 @@ body{
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
     cursor: pointer;
+    margin-bottom: 30px;
 }
 #place-order-btn-right{
     margin-top: 10px;

@@ -1,6 +1,7 @@
 #megamenu{
     
-    background-color:#e4d5c8;
+    background-color:#f4f4f4;
+    height: 40px;
 }
 
 
@@ -9,19 +10,22 @@
     
    /* margin-right:-200px; */
     width: auto;
-	background-color:#e4d5c8;
+	background-color:#f4f4f4;
     
-    margin-left:100px;
+    margin-left:0px;
+    
 }
 .navbar{
-  background-color:#e4d5c8;
+  background-color:#f4f4f4;
   color:#0d0e0d;
   font-family: Open Sans,sans-serif;
   width:100%;
-  /* margin-left:100px;
-  margin-right:200px; */
-  
+  margin-left:-140px;
+  margin-right:200px; 
+  margin-top: 20px;
   height: 33px;
+  
+  
 }
 .list-unstyled img{
     height: 200px;
@@ -41,6 +45,18 @@ justify-content:center;
     line-height:40px;
     Color:#003953;
     font-family: "Open Sans", sans-serif;
+  
+}
+
+.col-megamenu,.nav-link2>ul
+{
+margin-left: 60px;
+}
+.nav-link2
+{
+    margin-left: 300px;
+    margin-right: -260px;
+    text-decoration: none;
 }
 .navbar .megamenu{ padding: 1rem; }
 /* ============ desktop view ============ */
@@ -61,3 +77,6 @@ justify-content:center;
 	    margin-top:10px;
 	}
 }
+
+
+

@@ -48,12 +48,23 @@ function append(ele){
                 div1.append(size);
             })
 
+            let cart={
+            image:ele.image,
+            brand:ele.brand,
+            title:ele.title,
+            color:ele.color,
+                size:ele.size,
+                price:ele.price,
 
+            }
 
             let button=document.createElement("button");
             button.innerText="Add To Cart";
-            button.addEventListener("click", ()=>{
-                addCart(ele);
+            button.addEventListener("click", function(){
+                alert("Product Added To Cart");
+                let data=JSON.parse(localStorage.getItem("CartData"))||[];
+                data.push(cart);
+                localStorage.setItem("CartData",JSON.stringify(data));
             })
 
         div.append(brand,title, price, p, color,p2, div1, button)  ;
@@ -63,10 +74,14 @@ function append(ele){
 
 append(productArray);
 
-function addCart(ele){
-    localStorage.setItem("CartData", JSON.stringify(ele));
+// function addCart(ele){
 
-    // localStorage.setItem("product", JSON.stringify(element))
-    alert("Product Add To Cart");
+//     alert("Product Added To Cart");
+//     let data=JSON.parse(localStorage.getItem("CartData"))||[];
+//     data.append(ele);
+//     localStorage.setItem("CartData",JSON.stringify(data));
 
-}
+//     // localStorage.setItem("product", JSON.stringify(element))
+    
+
+// }

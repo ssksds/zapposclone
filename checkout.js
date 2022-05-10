@@ -6,7 +6,7 @@ document.getElementById("footer").innerHTML = footer()
 let cartData = JSON.parse(localStorage.getItem("CartData")) || []
 
 let cartTotal = cartData.reduce(function(sum,element){
-    return sum + (element.price);
+    return sum + Number(element.price);
 },0)
 let length = cartData.length;
 

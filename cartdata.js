@@ -46,6 +46,7 @@ let total=cartData.reduce(function(sum,el,index,arr){
 
   function append(cartData)
   {
+console.log(cartData);
   document.querySelector("#ap_cart").innerHTML=null;
   cartData.map(function(ele,index,arr){
   box=document.createElement("div");
@@ -108,7 +109,7 @@ let total=cartData.reduce(function(sum,el,index,arr){
 });
 }
 
-document.querySelector("#checkout").addEventListener("click",function()
+document.querySelector("#ap_checkout").addEventListener("click",function()
 {
-    window.location.href="checkout.html";
+  window.location.href="./checkout.html";
 })

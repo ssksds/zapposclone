@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://kit.fontawesome.com/f14222d9f2.js" crossorigin="anonymous"></script>
-    
+    <link rel="stylesheet" href="./head&footer.css">
+    <link rel="stylesheet" href="./nextpage.css">
+    <link rel="stylesheet" href="./cart.css">
+    <!-- <link rel="stylesheet" href="./headfoot.css"> -->
     <!-- <link rel="stylesheet" href="./styles/dropdown.css">
     <link rel="stylesheet" href="./styles/ddrop.css"> -->
-    
+    <link rel="stylesheet" href="./megamenu/megamenu.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"crossorigin="anonymous"></script>
     <script type="text/javascript">
@@ -23,805 +26,169 @@
         }); 
         // DOMContentLoaded  end
     </script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"crossorigin="anonymous"></script>
-    <script type="text/javascript">
-        document.addEventListener("DOMContentLoaded", function(){
-            /////// Prevent closing from click inside dropdown
-            document.querySelectorAll('.dropdown-menu').forEach(function(element){
-                element.addEventListener('click', function (e) {
-                    e.stopPropagation();
-                });
-            })
-        }); 
-        // DOMContentLoaded  end
-    </script>
-
-    <style>
-        #mainboc{
-            width: 100%;
-            height: 750px;
-            margin-top: 320px;
-        }
-        #sidebar{
-            height: 330px;
-            width: 7%;
-        }
-
-            
-            
-            
-
-            
-            
-        #sidebar > div{
-            margin-top: 20px;
-            height: 85px;
-            width: 100%;
-            margin-left: 58px;
-        }
-            
-    
-        
-            
-            
-            
-        
-        #sidebar > div > img{
-            width: 70px;
-            height: 80px;
-        }
-        #sidebar > button{
-            border: none;
-            margin-top: 30px;
-            margin-left: 60px;
-            
-        }
-        #sidebar > button:hover{
-            border: 1px solid black;
-        }
-        #sidedbar{
-            width: 52%;
-            margin-left: 200px;
-            height: 600px ;
-            
-            
-            margin-top: -750px;
-        }
-            
-
-        
-        #sidebar > div > img{
-            margin-top: 30px;
-        }
-        #sidebar > div > img:hover{
-            border: 1px solid black;
-            
-        }
-        #sidedbar > img{
-            width: 65%;
-            height: 100%;
-            margin-left: 100px;
-            
-          
-        }
-        #sideone{
-            height: 700px;
-            width: 30%;
-            
-            margin:  auto;
-            margin-top: -602px;
-            margin-left: 895px;
-            position: absolute;
-        }
-        #sideone > img{
-            width: 100%;
-        }
-        #sideone > div{
-            font-weight: bold;
-            margin-top: 10px;
-            font-family: "Open Sans", sans-serif;;
-        }
-        #sideone > div > .onee{
-            text-decoration: underline;
-            color: #003953;
-        }
-        #sideone > div > .twoo{
-            color: #707474;
-            font-size: small;
-        }
-        #sidetwoo{
-            margin: auto;
-            width: 100%;
-            height: 110px;
-            
-            display: flex;
-            flex-wrap: wrap;
-            column-gap: 10px;
-        }
-        #sidetwoo > div{
-            width: 31%;
-            height: 45px;
-            text-align: center;
-            align-items: center;
-            font-size: 13px;
-            
-            color: #888C8C;
-            
-        }
-        #sidetwoo > div:hover{
-            border: 2px solid rgb(138, 138, 250);
-            
-        }
-        #sideone > a{
-            color: #3A95CC;
-            font-family: "Open Sans", sans-serif;;
-        }
-        #sideone div button{
-            font-family: "Open Sans", sans-serif;
-            display: block;
-            margin: auto;
-            width: 100%;
-            padding: 17px;
-            border-radius: 5px;
-            border: none;
-            background-color: #A7E688;
-            font-weight: bold;
-            cursor: pointer;
-        }
-        #sideone div h3{
-            font-size: 25px;
-        }
-        #sideone div #price{
-            color: rgb(255, 51, 51);
-            font-size: 25px;
-        }
-        #sideone div #size{
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            /* padding: 10px; */
-        }
-        #sideone div #size p{
-            text-align: center;
-            padding: 10px;
-        }
-        #sideone div #size p:hover{
-            border: 1px solid rgb(177, 177, 240);
-        }
-        #header{
-            display:flex;
-            width: 100%;
-            height:40px ;
-            gap:10px;
-            margin-top: -650px;
-            }
-            #header>div>img{
-            width:80%;
-            }
-            #bl{
-            background-color:#0076bd ;
-            }
-            #hee{
-            height:40px;
-            background-color:#0076bd;
-            border:0.4px solid #0076bd;
-            display:flex;
-            width:100%;
-            margin:0 auto;
-            box-sizing: border-box;
-            color:white;
-            
-            }#seel{
-            height:40px;
-            background-color:#0076bd;
-            
-            }
-            #seep{
-            line-height:20px;
-            font-size:16px;
-            letter-spacing:normal;
-            font-family:"Open Sans", sans-serif;
-            display: block;
-            margin-block-start: 1em;
-            margin-block-end: 1em;
-            margin-inline-start: 0px;
-            margin-inline-end: 0px;
-            ;
-            }
-            #seed{
-            height:24px;
-            text-align: start;
-            margin-right: 5px;
-            padding-left: 40px;
-            justify-content: flex-start;
-            text-overflow: hidden;
-            display: block;
-            
-            }
-            #homenav{
-            height:60px;
-            width:100%;
-            border-top: 1px solid red;
-            }
-            #hmnav{
-            display: inline-block;
-            display:flex;
-            padding-top: 25px;
-            }
-            #hmnav1 img{
-            height:40px;
-            padding-top:3px;
-            background-color:none;
-            }
-            #hmb{
-            background-color:#0076bd;
-            border:none;
-            height:44px;
-            padding: 12px 24px;
-            color: #fff;
-            margin-left: -2px;
-            border-radius: 0 4px 4px 0;
-            cursor: pointer;
-            font: 700 14px/120% Open Sans,sans-serif;
-            text-align: center;
-            border: 2px solid #003953;
-            }
-            #hms{
-            height:30px;
-            width:500px;
-            color: #1f1f1f;
-            font: 400 16px Open Sans,sans-serif;
-            line-height: 1.35;
-            padding: 8px 12px;
-            box-shadow: none;
-            border: 2px solid #ddd;
-            transition: border .3s ease 0s;
-            }
-            #hmnav2{
-            padding-left: 40px;
-            display:flex;
-            width: 100%;
-            justify-content:space-between;
-            width: 100%;
-            }
-            #hmb2{
-            height: 44px;
-            width:150px;
-            color: #035d59;
-            border: 2px solid rgb(167, 230, 136);
-            background-color:rgb(167, 230, 136);
-            border-radius: 4px;
-            padding: 12px 14px;
-            cursor: pointer;
-            text-align: center;
-            user-select: none;
-            background: rgb(255, 255, 255);
-            margin-left: auto;
-            display: block;
-            position: relative;
-            touch-action: manipulation;
-            transition: none;
-            }
-            /* ---------footer---------- */
-
-            #footer{
-            display:grid;
-            height:auto;
-            width:100%;
-            background-color:rgb(0,46,66);
-            
-            }
-            *{
-            font-family:"Open Sans", sans-serif;
-            }
-        .fot1t{
-        padding-top:10px;
-        font-size:18px;
-        font-family:"Open Sans", sans-serif;
-        line-height: normal;
-        text-align:start;
-        color:white;
-        padding-bottom: 10px;
-        background: #032c48;
-        border-radius: 8px;
-
-        }
-        #fot1{
-        display:grid;
-        height:141px;
-        width:90%;
-        padding-left:40px;
-        color: #fff;
-        font: 400 14px Open Sans,sans-serif;
-        background: #032c48;
-        }
-        #subscribe{
-        line-height:21.6px;
-        height:41px;
-
-        }
-        #fsub{
-        font-size:14px;
-        line-height:16.8px;
-        text-align:center;
-        width: 200px;
-        height: 33px;
-        }
-        .ta-z{
-        width:400px;
-        height:40px;
-        display:flex;
-        padding-left: 50px;
-        }
-        #listed li{
-        list-style: none;
-        text-align: start;
-        font-family:"Open Sans", sans-serif; 
-        font-size: 14px;
-        color: white;
-        font-weight: 400;
-        margin-bottom: 8px;
-        padding-inline-start: 40px;
-
-        }
-        #listed{
-        display:grid;
-        grid-template-columns: repeat(4,1fr);
-        gap:30px;
-        padding: 16px 32px;
-        margin: auto;
-        color: #fff;
-        overflow: hidden;
-        }
-        
-        #listed>div{
-        
-        text-align:center;
-        box-sizing:border-box;
-        font-family:"Open Sans", sans-serif; 
-        font-size: 14px;
-        
-        color: white;
-        font-weight: 400;
-        width:80%;
-        line-height:20px;
-        }
-        h3{
-            color:white;
-            font-family:"Open Sans", sans-serif; 
-            font-weight: 600;
-            font-size:18px;
-        }
-        .socialMediaIcon {
-            padding: 12px;
-            margin-left: 12px;
-            padding-left: 3px;
-            padding-right: 3px;
-            width: 100%;
-            }
-            .socialMediaIcon i{
-                height: 30px;
-            }
-     
-
-      
-
-
-   #innerWid2 {
-         padding-right: 30px;
-          width: 90%;
-          margin-left: 20px;
-          line-height: 12px;
-          background-color:rgb(0,46,66);
-          color:white;
-    }
-      #servay{
-      border-radius: 5px;
-      font-size: 14px;
-      line-height: 17px;
-  
-
-    }
-    #megamenu{
-    
-    background-color:#e4d5c8;
-    }
-
-
-    .container {
-        margin-left: -100px;
-        
-    /* margin-right:-200px; */
-        width: auto;
-        background-color:#e4d5c8;
-        
-        margin-left:100px;
-    }
-    .navbar{
-    background-color:#e4d5c8;
-    color:#0d0e0d;
-    font-family: Open Sans,sans-serif;
-    width:100%;
-    /* margin-left:100px;
-    margin-right:200px; */
-    
-    height: 33px;
-    }
-    .list-unstyled img{
-        height: 200px;
-        width:180px;
-
-    }
-    /* .navbar-nav{
-        /* display:grid;
-        grid-template-columns: repeat(6,1fr); */
-    
-    .navbar-nav a{
-        Color:#003953;
-        font-family: "Open Sans", sans-serif;
-    justify-content:center;
-    }
-    .navbar-nav ul li{
-        line-height:40px;
-        Color:#003953;
-        font-family: "Open Sans", sans-serif;
-    }
-    .navbar .megamenu{ padding: 1rem; }
-    /* ============ desktop view ============ */
-    @media all and (min-width: 992px) {
-        
-        .navbar .has-megamenu{position:static!important;}
-        .navbar .megamenu{left:0; right:0; width:100%; margin-top:0;  }
-        
-    }	
-    /* ============ desktop view .end// ============ */
-
-
-    /* ============ mobile view ============ */
-    @media(max-width: 450px){
-        .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
-            overflow-y: auto;
-            max-height: 90vh;
-            margin-top:10px;
-        }
-    }
-     
-    
-    
-    
-    /* <<----------------------slideshow------------------>> */
-   
-    
-     .slideshow-container {
-        margin-bottom: 20px;
-        position: relative;
-        justify-content: center;
-        height:40px;
-        font-family:"Open Sans", sans-serif ;
-        border:2px saddlebrown
-    }
-      
-      /* Slides */
-      .mySlides {
-        display: none;
-        
-        text-align: center;
-      }
-      
-      /* Next & previous buttons */
-      .prev, .next {
-        cursor: pointer;
-        position: absolute;
-        top: 50%;
-        width: auto;
-        margin-top: -30px;
-        padding: 16px;
-        color: #888;
-        
-        font-size: 20px;
-        border-radius: 0 3px 3px 0;
-        user-select: none;
-      }
-      
-      /* Position the "next button" to the right */
-      .next {
-        position: absolute;
-        right: 0;
-        border-radius: 3px 0 0 3px;
-      }
-      
-      /* On hover, add a black background color with a little bit see-through */
-      .prev:hover, .next:hover {
-        background-color: rgba(0,0,0,0.8);
-        color: white;
-      }
-      
-      /* The dot/bullet/indicator container */
-      .dot-container {
-          text-align: center;
-          padding: 20px;
-          background: #ddd;
-      }
-      
-      /* The dots/bullets/indicators */
-      /* .dot {
-        cursor: pointer;
-        height: 15px;
-        width: 15px;
-        margin: 0 2px;
-        background-color: #bbb;
-        border-radius: 50%;
-        display: inline-block;
-        transition: background-color 0.6s ease;
-      } */
-      
-      /* Add a background color to the active dot/circle */
-      /* .active, .dot:hover {
-        background-color: #717171;
-      } */
-      
-      /* Add an italic font style to all quotes */
-      /* q {font-style: italic;}
-      
-      /* Add a blue color to the author */
-      
-
-
-   
-      
-      #scroll-container{
-      border: 3px solid black;
-      border-radius: 5px;
-      overflow: hidden;
-      }
-      
-      #scroll-text {
-      /* animation properties */
-      -moz-transform: translateX(100%);
-      -webkit-transform: translateX(100%);
-      transform: translateX(100%);
-      
-      -moz-animation: my-animation 15s linear infinite;
-      -webkit-animation: my-animation 15s linear infinite;
-      animation: my-animation 15s linear infinite;
-      }
-      #scrolbar {
-      background-color: rgb(229,240,247);
-      text-align: center;
-      padding-top: 4px;
-      font-size: larger;
-      border: transparent 0px solid;
-      display: flex;
-      justify-content: space-between;
-      height: 35px;
-      
-      }
-      
-      /* Dropdown Button */
-      .dropbtn {
-      background-color: rgb(244,244,244);
-      color: rgb(54,98,119);
-      padding: 16px;
-      font-size: 16px;
-      border: none;
-      cursor: pointer;
-      }
-      
-      
-      /* The container <div> - needed to position the dropdown content */
-      .dropdown {
-      position: relative;
-      display: inline-block;
-      }
-      
-      /* Dropdown Content (Hidden by Default) */
-      .dropdown-content {
-      display: none;
-      position: absolute;
-      background-color: #f1f1f1;
-      min-width: 160px;
-      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-      z-index: 1;
-      }
-      
-      /* Links inside the dropdown */
-      .dropdown-content a {
-      color: black;
-      padding: 12px 16px;
-      text-decoration: none;
-      display: block;
-      }
-      
-      /* Change color of dropdown links on hover */
-      .dropdown-content a:hover {background-color: #ddd}
-      
-      /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-      .show {display:block;}
-      
-      #pay22{
-        margin-left:30px;
-        font-size:34px;
-      }
-            
-       
-
-    </style>
     
 </head>
-
 <body>
-    <div id="mainboc">
-        <div id="sidebar">
-            <div>
-                <img onclick="changepage(this.srcset)" src="https://m.media-amazon.com/images/I/81gk1w7C0vL._AC_SR58.88,73.60000000000001_.jpg" srcset="https://m.media-amazon.com/images/I/81gk1w7C0vL._AC_SR736,920_.jpg"/>
-            </div>
-            <div>
-                <img onclick="changepage(this.srcset)"  src="https://m.media-amazon.com/images/I/71eJ8qZy0-L._AC_SR58.88,73.60000000000001_.jpg" srcset="https://m.media-amazon.com/images/I/71eJ8qZy0-L._AC_SR736,920_.jpg"/>
-            </div>
-            <div>
-                <img onclick="changepage(this.srcset)"  src="https://m.media-amazon.com/images/I/81ca5oSZXnL._AC_SR58.88,73.60000000000001_.jpg" srcset="https://m.media-amazon.com/images/I/81ca5oSZXnL._AC_SR736,920_.jpg"/>
-            </div>
-            
-            
+
+    <div id="header">
+        <div id="bl">
+            <img src="	https://m.media-amazon.com/images/G/01/zappos/melody/black-logo.svg">
         </div>
-        <div id="header">
-            <div id="bl">
-                <img src="	https://m.media-amazon.com/images/G/01/zappos/melody/black-logo.svg">
-            </div>
-            <div>
-                <img src="	https://m.media-amazon.com/images/G/01/vrsnl/vrsnl-logo._CB1564076501_.svg">
-            </div>
+        <div>
+            <img src="	https://m.media-amazon.com/images/G/01/vrsnl/vrsnl-logo._CB1564076501_.svg">
         </div>
-        <div id="hee">
+    </div>
+    <div id="hee">
+        <div>
+            <select id=seel>
+                <option value="">Customer Service</option>
+                <option value="">Contact Info</option>
+                <option value="">FAQs</option>
+                <option value="">Give Us Feedback</option>
+                </select>
+        </div>
+        <div id="seed">Every Zappos order comes with FAST, FREE Shipping<span>plus a FREE 365-Day Return Policy! </span>
+            <strong>About Shipping & Returns</strong>
+        </div>
+    </div>
+   
+    <div id="hmnav">
+        <div id="hmnav1"><a href="loginmodel.html">
+            <img src="https://m.media-amazon.com/images/G/01/zappos/melody/zapposPBS._CB1509642213_.svg">
+        </a>
+           </div>
+
+        <div id="hmnav2">
             <div>
-                <select id=seel>
-                    <option value="">Customer Service</option>
-                    <option value="">Contact Info</option>
-                    <option value="">FAQs</option>
-                    <option value="">Give Us Feedback</option>
-                    </select>
+                <input type="text"id="hms" placeholder="Search For Shoes,Clothing,etc.">
+                <button id="hmb">SEARCH</button>
             </div>
-            <div id="seed">Every Zappos order comes with FAST, FREE Shipping<span>plus a FREE 365-Day Return Policy! </span>
-                <strong>About Shipping & Returns</strong>
+            <div>
+                <button id="hmb2">View Cart</button>
+               
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+   
+      <div class="ap_checkout">
+    <h1 id="ap_mycart">My Cart</h1>
+    <p id="ap_check">Check out to earn up to $1.15 in VIP points</p>
+    <div id="ap_scroll">
+    <div id="ap_cart"></div>
+    </div>
+    <div id="ap_buttons">
+        <button>VIEW CART</button>
+        <div id="ap_proceed">
+            <p id="ap_total"></p>
+        <button id="ap_checkout">PROCEED TO CHECKOUT</button>
+    </div>
+    </div>
+  </div>
+
+</div>
+</div>
             </div>
+
+        </div>
+    </div>
+
+
+    <div id="megamenu"></div>
+   
+    <div class="slideshow-container">
+
+        <div class="mySlides">
+          <marque><q>Be the first to shop the newest home styles—now on Zappos! Shop Home Now</q></marque>
+          
+        </div>
+        
+        <div class="mySlides">
+            <marque> <q>Mother's Day is this Sunday! Shop Mother’s Day Gifts</q></marque>
+          
+        </div>
+        <div class="mySlides">
+            <marque> <q>FREE 365 Day Returns and Exchanges! </q></marque>
+          
+        </div>
+        
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
         </div>
        
-        <div id="hmnav">
-            <div id="hmnav1"><a href="index.html">
-                <img src="https://m.media-amazon.com/images/G/01/zappos/melody/zapposPBS._CB1509642213_.svg">
-            </a>
-               </div>
+     <!-- <div id="nav"></div>     -->
+
     
-            <div id="hmnav2">
-                <div>
-                    <input type="text"id="hms" placeholder="Search For Shoes,Clothing,etc.">
-                    <button id="hmb">SEARCH</button>
-                </div>
-                <div>
-                    <button id="hmb2" onclick="myFunction()"><a href="./favourites/favourites.html">cart</a></button>
-        
-                </div>
-    
-            </div>
-        </div>
-    
-    
-        <div id="megamenu"></div>
-       
-        <div class="slideshow-container">
-    
-            <div class="mySlides">
-              <marque><q>Be the first to shop the newest home styles—now on Zappos! Shop Home Now</q></marque>
-              
-            </div>
-            
-            <div class="mySlides">
-                <marque> <q>Mother's Day is this Sunday! Shop Mother’s Day Gifts</q></marque>
-              
-            </div>
-            <div class="mySlides">
-                <marque> <q>FREE 365 Day Returns and Exchanges! </q></marque>
-              
-            </div>
-            
-            
-            <a class="prev" onclick="plusSlides(-1)">❮</a>
-            <a class="next" onclick="plusSlides(1)">❯</a>
-            
-            </div>
-           
-         <!-- <div id="nav"></div>     -->
-    
-        
+</div>
+
+
+<div id="sidedbar">
+    <!-- <img src="https://m.media-amazon.com/images/I/81gk1w7C0vL._AC_SR736,920_.jpg" alt=""> -->
+</div>
+<div id="sideone">
+    <!-- <img src="/information.png" alt=""> -->
+    <!-- <div>
+        Women's Sizes: <span class="onee">US Sizing</span> <span class="twoo">Standard</span>
     </div>
-    <div id="footer"></div>
-        <div id="sidedbar">
-            <!-- <img src="https://m.media-amazon.com/images/I/81gk1w7C0vL._AC_SR736,920_.jpg" alt=""> -->
+    <div id="sidetwoo">
+        <div class="size1">
+            <p>32A</p>
         </div>
-        <div id="sideone">
-            <!-- <img src="/information.png" alt="">
-            <div>
-                Women's Sizes: <span class="onee">US Sizing</span> <span class="twoo">Standard</span>
-            </div>
-            <div id="sidetwoo">
-                <div class="size1">
-                    <p>32A</p>
-                </div>
-                <div class="size1">
-                    <p>32-34B</p>
-                </div >
-                <div class="size1">
-                    <p>36B-C</p>
-                </div>
-                <div class="size1">
-                    <p>36C-D</p>
-                </div>
-
-                
-    
-            </div>
-            <a href="helpline.html">Can't find your size?</a>
-            <br>
-            <br>
-            
-            <button onclick="add_to_cart()">Add To Cart</button> -->
-            
-    
+        <div class="size1">
+            <p>32-34B</p>
+        </div >
+        <div class="size1">
+            <p>36B-C</p>
         </div>
-
+        <div class="size1">
+            <p>36C-D</p>
+        </div>
 
         
 
-        
     </div>
-    <!-- <div id="sidebar">
-        <div>
-            <img onclick="changepage(this.srcset)" src="https://m.media-amazon.com/images/I/81gk1w7C0vL._AC_SR58.88,73.60000000000001_.jpg" srcset="https://m.media-amazon.com/images/I/81gk1w7C0vL._AC_SR736,920_.jpg"/>
-        </div>
-        <div>
-            <img onclick="changepage(this.srcset)"  src="https://m.media-amazon.com/images/I/71eJ8qZy0-L._AC_SR58.88,73.60000000000001_.jpg" srcset="https://m.media-amazon.com/images/I/71eJ8qZy0-L._AC_SR736,920_.jpg"/>
-        </div>
-        <div>
-            <img onclick="changepage(this.srcset)"  src="https://m.media-amazon.com/images/I/81ca5oSZXnL._AC_SR58.88,73.60000000000001_.jpg" srcset="https://m.media-amazon.com/images/I/81ca5oSZXnL._AC_SR736,920_.jpg"/>
-        </div>
-        
-        
-    </div>
-    <div id="sidedbar">
-        <img src="https://m.media-amazon.com/images/I/81gk1w7C0vL._AC_SR736,920_.jpg" alt="">
-    </div>
+    <a href="helpline.html">Can't find your size?</a>
+    <br>
+    <br>
     
-    <div id="sideone">
-        <img src="/information.png" alt="">
-        <div>
-            Women's Sizes: <span class="onee">US Sizing</span> <span class="twoo">Standard</span>
-        </div>
-        <div id="">
-
-        </div>
-
-    </div> 
+    <button onclick="add_to_cart()">Add To Cart</button> --> -->
     
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+<div id="footer"></div>
+
+
 </body>
 </html>
-
-<script src="/nextpage.js"></script>
-
 <script type="module">
+    import megamenu from "./megamenu/megamenu.js"
+	document.getElementById("megamenu").innerHTML =megamenu();
 
 
-    // import megamenu from "./megamenu/megamenu.js"
-    // 	document.getElementById("megamenu").innerHTML =megamenu();
     
-      import footer from "./components/footer.js"
-        document.getElementById("footer").innerHTML=footer();
-    
-    </script>
-    <script src="./slideshow.js"></script>
-    
-    <script type="module">
-        import megamenu from "./megamenu.js"
-        document.getElementById("megamenu").innerHTML =megamenu()
-    </script>
-    
-    
+
+// import megamenu from "./megamenu/megamenu.js"
+// 	document.getElementById("megamenu").innerHTML =megamenu();
+
+  import footer from "./components/footer.js"
+    document.getElementById("footer").innerHTML=footer();
+
+</script>
+<script src="./slideshow.js"></script>
+<script src="./nextpage.js"></script>
+<script src="./cartdata.js"></script>
+

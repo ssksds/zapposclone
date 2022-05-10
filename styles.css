@@ -3,6 +3,7 @@
     height: 650px;
    display:flex;
    position: absolute;
+   margin-top: -60px;
 }
 #main_box > img{
     width: 100%;
@@ -577,3 +578,9 @@
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
 }
+
+.slideshow-container
+{
+    background-color: #e5f0f7;
+}
+
