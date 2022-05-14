@@ -284,11 +284,7 @@ width:100%;
       }
       
       /* The dot/bullet/indicator container */
-      .dot-container {
-          text-align: center;
-          padding: 20px;
-          background: #ddd;
-      }
+    
       
       /* The dots/bullets/indicators */
       /* .dot {
